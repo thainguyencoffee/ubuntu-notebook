@@ -98,7 +98,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 ## Tilt
 ```bash
-brew install tilt-dev/tap/tilt
+curl -fsSL https://raw.githubusercontent.com/tilt-dev/tilt/master/scripts/install.sh | bash
 ```
 
 ### Octant
