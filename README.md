@@ -90,6 +90,11 @@ brew tap anchore/grype
 ```bash
 brew install grype
 ```
+```bash
+(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/thainguyencoffee/.bashrc
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+```
 
 ## Tilt
 ```bash
